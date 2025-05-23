@@ -1,0 +1,280 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 60px 0px 40px;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.479);
+
+        .burger{
+            display: none;
+        }
+
+        .header-part1{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+
+            .menu{
+                display: flex;
+                flex-direction: row;
+                font-size: 13px;
+                font-weight: 800;
+                gap: 30px;
+                letter-spacing: 1px;
+
+                p{
+                    padding-bottom: 30px;
+                    margin-bottom: 0;
+                    border-bottom: 6px #ffffff solid;
+                }
+
+                p:hover{
+                    color: #004830;
+                    cursor: pointer;
+                    padding-bottom: 30px;
+                    margin-bottom: 0;
+                    border-bottom: 6px #006241 solid;
+                }
+            }
+
+            .menu2{
+                display: none;
+            }
+        }
+
+        .header-part2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 40px;
+
+            .location{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 10px;
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+            .location:hover{
+                color: #006241;
+            }
+
+            .header-btns{
+                .signin-btn{
+                    background-color: white;
+                    border: 1px black solid;
+                    padding: 8px 20px;
+                    font-size: 13px;
+                    font-weight: 550;
+                    border-radius: 50px;
+                    margin-right: 15px;
+                }
+
+                .signin-btn:hover{
+                    background-color: rgb(221, 221, 221);
+                }
+
+                .joinnow-btn{
+                    background-color: black;
+                    color: white;
+                    border: 1px black solid;
+                    padding: 8px 20px;
+                    font-size: 13px;
+                    font-weight: 550;
+                    border-radius: 50px;
+                }
+
+                .joinnow-btn:hover{
+                    background-color: rgba(0, 0, 0, 0.753);
+                }
+            }
+        }
+    }
+
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        padding: 10px 140px 5px 140px;
+        background-color: rgba(238, 238, 238, 0.626);
+        border-bottom: 1px rgb(213, 213, 213) solid;
+
+        p{
+            border-bottom: 1px rgba(238, 238, 238, 0.626) solid;
+            padding-bottom: 5px;
+        }
+
+        p:hover{
+            border-bottom: 1px black solid;
+            padding-bottom: 5px;
+        }
+    }
+
+    .info-item{
+        padding: 0;
+        margin: 0;
+
+        .navigation-foods{
+            font-size: 13px;
+            letter-spacing: 1px;
+            font-weight: 500;
+            padding: 10px 140px 5px 140px;
+            background-color: rgba(238, 238, 238, 0.626);
+            border-bottom: 1px rgb(213, 213, 213) solid;
+
+            p{
+                border-bottom: 1px rgba(238, 238, 238, 0.626) solid;
+                padding-bottom: 5px;
+
+                span{
+                    color:black;
+                }
+            }
+        }
+
+        .json-info-food{
+            background-color: #1e3932;
+            .json-info1{
+                display: flex;
+                flex-direction: row;
+
+            }
+        }
+    }
+
+    .main-bd{
+        display: flex;
+        flex-direction: row;
+        padding: 20px 140px 40px 140px;
+        gap: 100px;
+        .foods-menu{
+            width: 150px;
+            .food-section{
+                font-size: 20px;
+                font-weight: 600;
+                margin: 30px 0px;
+            }
+
+            .sections-item{
+                color: rgb(67, 67, 67);
+                margin: 25px 0px;
+            }
+        }
+
+        .bakery-items{
+            margin-top: 50px;
+            width: 900px;
+
+            .name-bakery{
+                color: rgb(83, 83, 83);
+
+                span{
+                    font-weight: 700;
+                }
+            }
+
+            h1{
+                font-size: 30px;
+                margin: 30px 0px 60px 0px;
+            }
+
+            h3{
+                font-size: 25px;
+                font-weight: 800;
+                border-bottom: 1px rgb(213, 213, 213) solid;
+                padding-bottom: 20px;
+            }
+
+            .container1{
+                display: grid;
+                grid-template-rows: repeat(2, 250px);
+                grid-template-columns: repeat(4, 200px);
+                gap: 40px;
+                margin-top: 50px;
+                margin-bottom: 70px;
+            }
+
+            .container2{
+                display: grid;
+                grid-template-columns: repeat(4, 200px);
+                gap: 40px;
+                margin-top: 50px;
+                margin-bottom: 70px;
+            }
+
+            .container3{
+                display: grid;
+                grid-template-rows: repeat(2, 250px);
+                grid-template-columns: repeat(4, 200px);
+                gap: 40px;
+                margin-top: 50px;
+            }
+        }
+    }
+
+    .footer{
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.9);
+        padding: 50px 120px;
+
+        .footer-part1{
+            display: flex;
+            flex-direction: row;
+            gap: 45px;
+            border-bottom: 1px grey solid;
+            padding-bottom: 20px;
+
+            .part2-expl{
+                width: 200px;
+
+                .name-footer1{
+                    font-size: 20px;
+                }
+
+                .list{
+                    color: rgb(80, 80, 80);
+                    margin: 30px 0px;
+                    font-size: 17px;
+                }
+
+                .list:hover{
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .footer-part2{
+            padding: 30px 0px;
+
+            .part2-items{
+                font-size: 17px;
+                margin: 25px 0px;
+            }
+
+            .part2-items:hover{
+               text-decoration: underline;
+            }
+
+            .part2-last-word{
+                color: rgb(83, 83, 83);
+                font-size: 15px;
+                padding-top: 20px;
+            }
+        }
+    }
+
+    
+}
+

@@ -1,0 +1,173 @@
+{
+    "bakery": [
+        {
+            "name": "Vanilla Bean Custard Danish",
+            "photo": "images/VanillaBeanCustardDanish.jpg",
+            "description": "Sugar-layered croissant dough filled with a rich and velvety vanilla bean custard––each piece handcrafted with a signature look and baked to a golden finish.",
+            "type": "VEGETARIAN",
+            "calories": "230",
+            "sugar": "12g",
+            "fat": "9g"
+        },
+
+        {
+            "name": "Baked Apple Croissant",
+            "photo": "images/AppleCroissant.jpg",
+            "description": "Layers of croissant dough wrapped around a warm apple filling, topped with sugar and baked to a golden finish.",
+            "type": "VEGETARIAN",
+            "calories": "250",
+            "sugar": "12g",
+            "fat": "10g"
+        },
+
+        {
+            "name": "Ham & Swiss Croissant",
+            "photo": "images/HamAndSwissCroissant.jpg",
+            "description": "Hickory-smoked ham and melted Swiss cheese wrapped in a butter croissant with soft, flaky layers and a golden-brown crust.",
+            "type": "VEGETARIAN",
+            "calories": "320",
+            "sugar": "5g",
+            "fat": "17g"
+        },
+
+        {
+            "name": "Butter Croissant",
+            "photo": "images/Croissant-onGreen.jpg",
+            "description": "Classic butter croissant with soft, flaky layers and a golden-brown crust.",
+            "type": "NOT VEGETARIAN",
+            "calories": "250",
+            "sugar": "4g",
+            "fat": "14g"
+        },
+
+        {
+            "name": "Chocolate Croissant",
+            "photo": "images/SBX20220607_ChocolateCroissant-onGreen.jpg",
+            "description": "Two generous pieces of chocolate wrapped in a butter croissant with soft, flaky layers and a golden-brown crust.",
+            "type": "VEGETARIAN",
+            "calories": "300",
+            "sugar": "11g",
+            "fat": "18g"
+        },
+
+        {
+            "name": "Cheese Danish",
+            "photo": "images/SBX20220125_CheeseDanish-onGreen.jpg",
+            "description": "Flaky, butter croissant dough with soft, warm cheese in the center.",
+            "type": "VEGETARIAN",
+            "calories": "290",
+            "sugar": "11g",
+            "fat": "14g"
+        },
+
+        {
+            "name": "Turkey Sage Danish",
+            "photo": "images/TurkeySageDanish.jpg",
+            "description": "Savory turkey sausage lightly tossed in a creamy béchamel sauce, encased in a crisp, flaky laminated pastry.",
+            "type": "NOT VEGETARIAN",
+            "calories": "270",
+            "sugar": "5g",
+            "fat": "13g"
+        },
+
+        {
+            "name": "Banana, Walnut & Pecan Loaf",
+            "photo": "images/SBX20190729_BananaNutBread_US.jpg",
+            "description": "Bananas, walnuts and pecans mixed into a moist, nutty, classic banana bread.",
+            "type": "VEGETARIAN",
+            "calories": "380",
+            "sugar": "26g",
+            "fat": "20g"
+        },
+
+        {
+            "name": "Iced Lemon Loaf",
+            "photo": "images/SBX20190729_LemonLoaf.jpg",
+            "description": "Citrusy, buttery, moist lemon pound cake topped with a sweet icing.",
+            "type": "VEGETARIAN",
+            "calories": "410",
+            "sugar": "36g",
+            "fat": "17g"
+        },
+
+        {
+            "name": "Pumpkin & Pepita Loaf",
+            "photo": "images/SBX20190729_PumpkinBread.jpg",
+            "description": "Gently spiced pumpkin bread topped with crunchy pepitas.",
+            "type": "VEGETARIAN",
+            "calories": "360",
+            "sugar": "31g",
+            "fat": "14g"
+        },
+
+        {
+            "name": "Cinnamon Coffee Cake",
+            "photo": "images/SBX20180511_ClassicCoffeeCake.jpg",
+            "description": "Buttery, moist, coffee cake swirled with a cinnamon-sugar blend and finished with a crunchy streusel topping.",
+            "type": "VEGETARIAN",
+            "calories": "380",
+            "sugar": "35g",
+            "fat": "15g"
+        },
+
+        {
+            "name": "Blueberry Streusel Muffin",
+            "photo": "images/BlueberryStreuselMuffinUS.jpg",
+            "description": "A golden-brown muffin with juicy blueberries and notes of vanilla, finished with a cinnamon-streusel topping.",
+            "type": "NOT VEGETARIAN",
+            "calories": "370",
+            "sugar": "27g",
+            "fat": "18g"
+        },
+
+        {
+            "name": "Double Chocolate Brownie",
+            "photo": "images/SBX20190715_DoubleChocolateChunkBrownie.jpg",
+            "description": "Rich chocolate brownie with generous chunks of semisweet chocolate.",
+            "type": "VEGETARIAN",
+            "calories": "480",
+            "sugar": "37g",
+            "fat": "28g"
+        },
+
+        {
+            "name": "Petite Vanilla Bean Scone",
+            "photo": "images/SBX20230406_PetiteVanillaScone.jpg",
+            "description": "Moist, fluffy, petite scone made with real vanilla beans and vanilla extract.",
+            "type": "VEGETARIAN",
+            "calories": "130",
+            "sugar": "9g",
+            "fat": "6g"
+        },
+
+        {
+            "name": "Plain Bagel",
+            "photo": "images/SBX20190715_PlainBagel.jpg",
+            "description": "Classic soft, chewy and thick New York–style bagel. Available with cream cheese or butter.",
+            "type": "VEGETARIAN-VEGAN",
+            "calories": "250",
+            "sugar": "5g",
+            "fat": "1g"
+        },
+
+        {
+            "name": "Everything Bagel",
+            "photo": "images/SBX20190821_EverythingBagel_US.jpg",
+            "description": "Soft, chewy and thick New York–style bagel topped with onion, garlic, salt, poppy and sesame seeds. Available with cream cheese or butter.",
+            "type": "VEGAN",
+            "calories": "270",
+            "sugar": "5g",
+            "fat": "2.5g"
+        },
+
+        {
+            "name": "Avocado Spread",
+            "photo": "images/SBX20190814_AvocadoSpread.jpg",
+            "description": "Avocadoes mixed with lime, sea salt, garlic and a touch of spice—specially packaged to maintain freshness without the use of heat, additives or preservatives.",
+            "type": "NOT VEGETARIAN",
+            "calories": "90",
+            "sugar": "0g",
+            "fat": "8g"
+        }
+    ]
+}
